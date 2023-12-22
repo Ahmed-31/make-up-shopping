@@ -23,7 +23,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+        <div class="relative  min-h-screen selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
                 <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
                     <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><i class="fas fa-shopping-basket"></i> WakeUp&MakeUp </a>
@@ -38,7 +38,7 @@
                     @endauth
                 </div>
             @endif
-                <img class="img" src="images/makeup-cosmetics.webp" alt="make up image">
+
 
 {{--            <div class="max-w-7xl mx-auto p-6 lg:p-8">--}}
 {{--                <div class="flex justify-center">--}}
@@ -144,6 +144,30 @@
 {{--                    </div>--}}
 {{--                </div>--}}
 {{--            </div>--}}
+                <img class="img" src="images/makeup-cosmetics.webp" alt="make up image">
+                <div class="about-section">
+
+                    <h1> About Us </h1>
+
+                </div>
+                <div class="us">
+                    <img src="images/about.png" alt="photo" width="350" height="500" style="float: left;margin-right: 10px;">
+                    <div class="welcome">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br><strong> WELCOME..</strong><br>
+                        We are an international company <br>
+                        we are sells" original makeup and skin care products". <br>
+                        also This page helps you to buy makeup and the best skin care products online with ease. &#128132
+                    </div>
+                    <br>
+                    <div class="danger">
+                        <p><strong>Note!</strong> you should login or creat account to see our products</p>
+                    </div>
+                </div>
         </div>
     </body>
 </html>
