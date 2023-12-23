@@ -121,5 +121,12 @@
                     </div>
                 </div>
         </div>
+        <br>
+ <br>
+ <br>
+ <hr>
+ <footer>
+ <p>Copyright&copy;wakeup&makeup</p>
+</footer>
     </body>
 </html>
