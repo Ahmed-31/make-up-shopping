@@ -87,10 +87,35 @@
                         <br>
                         <br>
                         <section id="contact-details" class="section-p1">
+                        <div class="details">
+                            <span>GET IN TOUCH </span>
+                            <h2>Visit one of our locations or contact us today</h2>
+                            <h3>Head office</h3>
+                            <div>
+                                <li>
+                                    <i class="fa-solid fa-map"></i>
+                                    <p>Benha Egypt</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <p>WakeUp&MakeUp@example.com</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>01000039450</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-clock"></i>
+                                    <p> Monday-Saturday:9.00am to 16.00pm. 24/7 Online support</p>
+                                </li>
+                            </div>
+                        </div>
                         <div class="map">
                                 <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=benha&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                           </div>
+                                    
                         </section>
+
                     </div>
                 </div>
         </div>
