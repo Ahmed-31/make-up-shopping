@@ -42,13 +42,6 @@
                 background-color: #474e5d;
                 color: white;
             }
-            .about-contact {
-                padding: 50px;
-                text-align: center;
-                margin-top: 15em;
-                background-color: #474e5d;
-                color: white;
-            }
 
             #contact-details {
                 display: flex;
