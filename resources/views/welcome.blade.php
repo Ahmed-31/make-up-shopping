@@ -77,6 +77,21 @@
                         <p><strong>Note!</strong> you should login or creat account to see our products</p>
                     </div>
                 </div>
+                <div class="about-contact">
+                    <h1>Contact</h1>
+
+                </div>
+                <div class="contact_us">
+                    <div>
+                        <br>
+                        <br>
+                        <br>
+                        <section id="contact-details" class="section-p1">
+                            
+                           
+                        </section>
+                    </div>
+                </div>
         </div>
     </body>
 </html>
