@@ -9,9 +9,13 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+        <link href='https://fonts.googleapis.com/css?family=Averia Gruesa Libre' rel='stylesheet'>
 
         <!-- Styles -->
         <style>
+            body {
+                font-family: 'Averia Gruesa Libre';font-size: 22px;
+            }
             .img {
                 padding: 50px;
                 width: 850px;
