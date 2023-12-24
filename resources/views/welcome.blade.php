@@ -179,7 +179,7 @@
                         <div class="map">
                                 <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=benha&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                           </div>
-                                    
+
                         </section>
 
                     </div>
