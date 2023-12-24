@@ -16,8 +16,9 @@
         <!-- Styles -->
         <style>
             body {
-                font-family: 'Averia Gruesa Libre';font-size: 22px;
-            }
+                font-family: 'Averia Gruesa Libre', serif !important;
+                font-size: 22px;
+         }
             .img {
                 padding: 50px;
                 width: 850px;
