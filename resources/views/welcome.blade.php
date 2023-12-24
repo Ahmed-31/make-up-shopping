@@ -109,8 +109,8 @@
     <body class="antialiased">
         <div class="relative  min-h-screen selection:bg-red-500 selection:text-white">
             @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><i class="fas fa-shopping-basket"></i> WakeUp&MakeUp </a>
+            <div class="navbar navbar-expand-lg navbar-dark bg-dark text-xl-start sm:fixed sm:top-0 sm:right-0 p-6 d-flex z-10">
+                    <a href="{{ url('/dashboard') }}" class="me-auto font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500"><i class="fas fa-shopping-basket"></i> WakeUp&MakeUp </a>
                 @auth
                         <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
                     @else
