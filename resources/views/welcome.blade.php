@@ -193,7 +193,7 @@
  <br>
  <hr>
  <footer>
- <p>Copyright&copy;wakeup&makeup</p>
+ <p class="text-lg-center">Copyright&copy;wakeup&makeup</p>
 </footer>
     </body>
 </html>
