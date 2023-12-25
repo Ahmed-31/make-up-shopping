@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name'); // Product name
             $table->text('description')->nullable(); // Product description (nullable)
-            $table->decimal('price', 10, 2); // Product price with 10 digits, 2 decimal places
+            $table->decimal('price', 10, 2); // Product price with 10 digits, 2 decimal places
+            $table->string('image');
             $table->timestamps();
         });
     }
