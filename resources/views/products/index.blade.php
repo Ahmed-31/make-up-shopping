@@ -5,7 +5,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{ \App\Models\Products::find(1)->image }}" class="p-3 w-50 m-auto card-img-top" style="height: 420px; background-color: rgba(0,0,255,.1)" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ \App\Models\Products::find(1)->name }}</h5>
                         <p class="card-text">{{ \App\Models\Products::find(1)->description }}</p>
@@ -24,7 +24,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{ \App\Models\Products::find(2)->image }}" class="p-3 w-50 m-auto card-img-top" style="height: 420px; background-color: rgba(0,0,255,.1)" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ \App\Models\Products::find(2)->name }}</h5>
                         <p class="card-text">{{ \App\Models\Products::find(2)->description }}</p>
@@ -42,7 +42,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{ \App\Models\Products::find(3)->image }}" class="p-3 w-50 m-auto card-img-top" style="height: 420px; background-color: rgba(0,0,255,.1)" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ \App\Models\Products::find(3)->name }}</h5>
                         <p class="card-text">{{ \App\Models\Products::find(3)->description }}</p>
@@ -60,7 +60,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="{{ \App\Models\Products::find(4)->image }}" class="p-3 w-50 m-auto card-img-top" style="height: 420px; background-color: rgba(0,0,255,.1)" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ \App\Models\Products::find(4)->name }}</h5>
                         <p class="card-text">{{ \App\Models\Products::find(4)->description }}</p>
