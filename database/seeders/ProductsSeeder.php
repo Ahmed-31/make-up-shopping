@@ -39,6 +39,18 @@ class ProductsSeeder extends Seeder
                 'price' => 9.99,
                 'image' => 'images/products/product4.jpg'
             ],
+            [
+                'name' => 'Eyeliner',
+                'description' => 'Elevate your gaze with our precision-formulated eyeliner that effortlessly defines and accentuates your eyes. Glide on smoothly with intense, smudge-proof pigments for a long-lasting, dramatic look. Achieve bold, captivating eyes with ease, making a statement that lasts from day to night.',
+                'price' => 8.99,
+                'image' => 'images/products/product5.jpg'
+            ],
+            [
+                'name' => 'Eyeshadow',
+                'description' => 'Unleash your creativity with our velvety eyeshadows, blending seamlessly to create stunning eye looks. Our richly pigmented palette offers a spectrum of captivating colors, from subtle neutrals to vibrant hues, allowing you to express your unique style. Elevate your eye game with long-lasting, crease-resistant shades for a mesmerizing and glamorous finish.',
+                'price' => 159.99,
+                'image' => 'images/products/product6.jpg'
+            ],
         ];
 
         // Insert data into the products table
