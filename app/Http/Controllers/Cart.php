@@ -18,7 +18,11 @@ class Cart extends Controller
 
     public function index($id) {
         $user = User::find($id);
-        return view('cart.index', ['id' => $id, 'user' => $user]);
+        $totalPrice = 0;
+        foreach ($user->products as $product) {
+            $totalPrice += $product->price;
+        }
+        return view('cart.index', ['id' => $id, 'user' => $user, 'totalPrice' => $totalPrice, 'count' => count($user->products)]);
     }
 
     public function addToCart(Request $request)
