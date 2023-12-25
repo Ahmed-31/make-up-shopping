@@ -134,6 +134,19 @@
 
                     </ul>
 
+                    <!-- Middle Of Navbar -->
+                    <ul class="navbar-nav mx-auto">
+                        @guest
+                        @else
+                        @if (Route::has('cart.index'))
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('cart.index', Auth::user()->id) }}">{{ __('Cart') }}</a>
+                            </li>
+                                      @endif
+                        @endguest
+
+                    </ul>
+
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
