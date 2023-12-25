@@ -127,7 +127,9 @@
                     type: 'POST',
                     url: '/add-to-cart',
                     data: { product_id: productId, // Include the CSRF token in the request
-                        _token: csrfToken  },
+                        _token: csrfToken,
+                        type: 'add',
+                      },
                     success: function (response) {
                         if (response.success) {
                             alert(response.message); // You can customize this part to provide feedback to the user
