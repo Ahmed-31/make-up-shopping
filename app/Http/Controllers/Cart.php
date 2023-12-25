@@ -17,6 +17,7 @@ class Cart extends Controller
     }
 
     public function index($id) {
-        return view('cart.index', ['id' => $id]);
+        $user = User::find($id);
+        return view('cart.index', ['id' => $id, 'user' => $user]);
     }
 }
