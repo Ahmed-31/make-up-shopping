@@ -20,4 +20,27 @@ class Cart extends Controller
         $user = User::find($id);
         return view('cart.index', ['id' => $id, 'user' => $user]);
     }
+
+    public function addToCart(Request $request)
+    {
+        $productId = $request->input('product_id');
+        $product = Products::find($productId);
+
+        if ($product) {
+            // Get the authenticated user
+            $user = auth()->user();
+            
+            // Attach the product to the user's products
+            $user->products()->attach($productId);
+
+            // Here, we're just storing the product ID in the session as an example
+            $cart = $request->session()->get('cart', []);
+            $cart[] = $productId;
+            $request->session()->put('cart', $cart);
+
+            return response()->json(['success' => true, 'message' => 'Product added to cart']);
+        } else {
+            return response()->json(['success' => false, 'message' => 'Product not found']);
+        }
+    }
 }

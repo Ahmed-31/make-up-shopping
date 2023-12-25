@@ -37,3 +37,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/products', [\App\Http\Controllers\ProductsController::class, 'index'])->name('products.index');
 
 Route::get('{id}/cart', [\App\Http\Controllers\Cart::class, 'index'])->name('cart.index');
+
+Route::post('/add-to-cart', [\App\Http\Controllers\Cart::class, 'addToCart'])->name('addToCart');
