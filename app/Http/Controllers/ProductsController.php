@@ -73,4 +73,12 @@ class ProductsController extends Controller
     {
         //
     }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function TestMethod(Products $products)
+    {
+        //
+    }
 }
